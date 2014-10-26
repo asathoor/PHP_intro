@@ -19,6 +19,8 @@ Here are the code samples for the first semester PHP lessons. The learning objec
 * Includes (include, require)
 * Files
 * Simple log in system
+* Functions
+* Classes
 
 Basicly we work either locally on Xamp (or similar) or on an online server, if you've got one.
 
