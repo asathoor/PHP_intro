@@ -1,3 +1,7 @@
+<?php include "header.php"; ?>
+
+<!-- xxx bla bla -->
+
 <h1>Cookie</h1>
 
 <p>Saving info about a user, preferences or whether they're accepted as logged in.<p>
@@ -60,3 +64,5 @@ if($_COOKIE["MyCounter"] > 10) {
 <p style="color:red">
 <?php echo "Special price for you my friend, only: " . $price; ?>
 </p>
+
+<?php include "footer.php"; ?>
