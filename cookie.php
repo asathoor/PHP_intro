@@ -1,4 +1,11 @@
 <?php include "header.php"; ?>
+<<<<<<< HEAD
+=======
+
+<!-- xxx bla bla -->
+
+<h1>Cookie</h1>
+>>>>>>> krakenTest
 
 
 	<h1>Cookie</h1>
@@ -61,4 +68,17 @@
 	<?php echo "Special price for you my friend, only: " . $price; ?>
 	</p>
 
+<<<<<<< HEAD
+=======
+<p>
+	We save info in a cookie, so that the browser will remember the settings by the <strong>next</strong> visit.
+</p>
+<p>
+	Let's use that info:
+</p>
+<p style="color:red">
+<?php echo "Special price for you my friend, only: " . $price; ?>
+</p>
+
+>>>>>>> krakenTest
 <?php include "footer.php"; ?>
