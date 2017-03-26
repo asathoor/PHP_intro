@@ -1,6 +1,6 @@
-<? require "header.php"; ?>
+<?php require "header.php"; ?>
 
-<?
+<?php
 // SAVE THE CHARACTER NAME IN A COOKIE
 // Using GET to store values and echo via a variable.
 
@@ -171,7 +171,7 @@ if(isset( $_COOKIE["character"] ) ) {
 <div class="col_4">
 	<h6>Backpack Items (max 20)</h6>
 <ol class="alt">
-<?
+<?php
 // WHILE LOOP
 $i = 1;
 
@@ -189,7 +189,7 @@ $i++;
 
 </div><!-- ends the grid -->
 
-<? } // ends the if-no-cookie-exists ?>
+<?php } // ends the if-no-cookie-exists ?>
 
 
 
