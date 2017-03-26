@@ -24,30 +24,32 @@
 
 	<p> I count your visits: 
 
-	<?php
-	// counter
+		<?php
+		// counter
 
-	setcookie("MyCounter",1, time()+3600*24); 
+		setcookie("MyCounter",1, time()+3600*24); 
 
-	// get values from the cookie
-	if(isset( $_COOKIE["MyCounter"] ) ) {
-		echo $_COOKIE["MyCounter"];
-		$newValue = $_COOKIE["MyCounter"] + 1;
-		setcookie("MyCounter",$newValue, time()+3600*24); 
-	}
-	else {
-		echo "Well, the cookie is saved. But you'll have to come back to see it. Clik refresh please.";
-	}
+		// get values from the cookie
+		// isset( var ) = does this var exist?
+		if(isset( $_COOKIE["MyCounter"] ) ) {
+			echo $_COOKIE["MyCounter"];
+			$newValue = $_COOKIE["MyCounter"] + 1;
+			setcookie("MyCounter",$newValue, time()+3600*24); 
+		}
+		else {
+			echo "Well, the cookie is saved. But you'll have to come back to see it. Clik refresh please.";
+		}
 
-	$price = 12;
+		$price = 12;
 
-	if($_COOKIE["MyCounter"] > 10) {
-		// the ryan air trick
-		$price = $price * 2;
-	}
+		if($_COOKIE["MyCounter"] > 10) {
+			// the ryan air trick
+			$price = $price * 2;
+		}
 
 
-	?>
+		?>
+	</p>
 
 	<h2>Cookies will store info for the next visit</h2>
 
@@ -58,7 +60,7 @@
 		Let's use that info:
 	</p>
 	<p style="color:red">
-	<?php echo "Special price for you my friend, only: " . $price; ?>
+		<?php echo "Special price for you my friend, only: " . $price; ?>
 	</p>
 
 	<p>
@@ -68,7 +70,7 @@
 		Let's use that info:
 	</p>
 	<p style="color:red">
-	<?php echo "Special price for you my friend, only: " . $price; ?>
+		<?php echo "Special price for you my friend, only: " . $price; ?>
 	</p>
 
-<?php include "footer.php"; ?>4
+<?php include "footer.php"; ?>
