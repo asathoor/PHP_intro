@@ -3,7 +3,7 @@
 	<h1>Cookie</h1>
 
 	<p>Saving info about a user, preferences or whether they're accepted as logged in.<p>
-4444
+
 	<?php
 	// send a cookie that expires in 24 hours
 	$value = "value_but_no_spaces_please";
