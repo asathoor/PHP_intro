@@ -1,18 +1,10 @@
 <?php include "header.php"; ?>
-<<<<<<< HEAD
-=======
-
-<!-- xxx bla bla -->
-
-<h1>Cookie</h1>
->>>>>>> krakenTest
-
 
 	<h1>Cookie</h1>
 
 	<p>Saving info about a user, preferences or whether they're accepted as logged in.<p>
-
-	<?
+4444
+	<?php
 	// send a cookie that expires in 24 hours
 	$value = "value_but_no_spaces_please";
 	setcookie("MySecretLittleHelper",$value, time()+3600*24); 
@@ -56,6 +48,7 @@
 
 
 	?>
+
 	<h2>Cookies will store info for the next visit</h2>
 
 	<p>
@@ -68,17 +61,14 @@
 	<?php echo "Special price for you my friend, only: " . $price; ?>
 	</p>
 
-<<<<<<< HEAD
-=======
-<p>
-	We save info in a cookie, so that the browser will remember the settings by the <strong>next</strong> visit.
-</p>
-<p>
-	Let's use that info:
-</p>
-<p style="color:red">
-<?php echo "Special price for you my friend, only: " . $price; ?>
-</p>
+	<p>
+		We save info in a cookie, so that the browser will remember the settings by the <strong>next</strong> visit.
+	</p>
+	<p>
+		Let's use that info:
+	</p>
+	<p style="color:red">
+	<?php echo "Special price for you my friend, only: " . $price; ?>
+	</p>
 
->>>>>>> krakenTest
-<?php include "footer.php"; ?>
+<?php include "footer.php"; ?>4
