@@ -4,6 +4,9 @@
  */
 //session_start();
 ?>
+
+<p> Tjuhej </p>
+
 <div id="logIn">
 	<!-- $_GET: note the url in the browser -->
 	<form action="#" method="get" enctype="multipart/form-data">
