@@ -20,6 +20,9 @@ function test_input($data) {
 }
 ```
 
+The sanitizing part was omited in order to make the code more easy to understand.
+But in production it's better to be safe than sorry.
+
 ## Microlite '81 / HTML Kickstart
 
 In the `microlite` folder you'll find a responsive page sample made by 99lime.
