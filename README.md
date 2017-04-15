@@ -28,7 +28,13 @@ But in production it's better to be safe than sorry.
 
 ## Microlite '81 / HTML Kickstart
 
-In the `microlite` folder you'll find a responsive page sample made by 99lime.
+Here's a PHP sample for inspiration.
+
+In the `microlite` folder you'll find a responsive page sample made by 99lime. 
+The HTML was cut into small modules like: header.php for the header part.
+The filenames resemble the structure of a WordPress template. 
+Transforming this code to a WordPress template would be simple.
+But it's off topic here. 
 
 Games and programming are related. 
 The "open source" role playing game Microlite '81 is used as inspiration here. 
