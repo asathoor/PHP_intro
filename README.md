@@ -1,7 +1,5 @@
-PHP and Responsive Web Design
-=============================
-
-## PHP Intro
+PHP Intro
+=========
 
 A *very* basic introduciton to PHP:
 
