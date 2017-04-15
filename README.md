@@ -1,6 +1,9 @@
 PHP Intro
 =========
 
+> "What distinguishes PHP from something like client-side JavaScript is that the code is executed on the server, generating HTML which is then sent to the client. The client would receive the results of running that script, but would not know what the underlying code was. You can even configure your web server to process all your HTML files with PHP, and then there's really no way that users can tell what you have up your sleeve."
+> Source: [What is PHP?](http://php.net/manual/en/intro-whatis.php).
+
 A *very* basic introduciton to PHP:
 
 * Cookies
