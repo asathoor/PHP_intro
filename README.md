@@ -4,11 +4,18 @@ PHP Intro
 > "What distinguishes PHP from something like client-side JavaScript is that the code is executed on the server, generating HTML which is then sent to the client. The client would receive the results of running that script, but would not know what the underlying code was. You can even configure your web server to process all your HTML files with PHP, and then there's really no way that users can tell what you have up your sleeve."
 > Source: [What is PHP?](http://php.net/manual/en/intro-whatis.php).
 
-A *very* basic introduciton to PHP:
+Since PHP is *executed on the server* you'll need a **server**. An Apache server can do this. That's why you need
+to install a server on your local computer. Here you can use any localhost solution, like XAMPP, MAMP, or set up a
+lamp server on Linux.
 
-* Cookies
-* Sessions
-* Saving input to files
+## Learn Basic PHP
+
+What you'll find here is a *very* basic introduciton to PHP. The files in the folder will teach you to:
+
+* Create and Use Cookies (`cookie.php`)
+* Create and Use Sessions (`session.php`)
+* Saving form input to files (`form.php`)
+* Display the images from a folder (`simple_gallery.php`)
 
 Beware that any user input should be sanitized in order to avoid unwanted code injections from hackers.
 See ["The Complete PHP Form"](https://www.w3schools.com/php/showphp.asp?filename=demo_form_validation_complete) example on W3 Schools.
