@@ -1,7 +1,30 @@
 PHP and Responsive Web Design
 =============================
 
-## Microlite '81
+## PHP Intro
+
+A *very* basic introduciton to PHP:
+
+* Cookies
+* Sessions
+* Saving input to files
+
+Beware that any user input should be sanitized in order to avoid unwanted code injections from hackers.
+See ["The Complete PHP Form"](https://www.w3schools.com/php/showphp.asp?filename=demo_form_validation_complete) example on W3 Schools.
+
+```
+// santitize input sample
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+```
+
+## Microlite '81 / HTML Kickstart
+
+In the `microlite` folder you'll find a responsive page sample made by 99lime.
 
 Games and programming are related. 
 The "open source" role playing game Microlite '81 is used as inspiration here. 
@@ -14,6 +37,6 @@ since the data are stored in the client browser via a cookie.
 
 ## Sources
 
-* [HTML Kickstart](http://99lime.com/)
+* [99lime: HTML Kickstart](http://99lime.com/)
 
 
