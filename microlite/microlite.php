@@ -191,6 +191,4 @@ $i++;
 
 <?php } // ends the if-no-cookie-exists ?>
 
-
-
-<?php require "dd_footer.php"; ?>
+<?php require "footer.php"; ?>
