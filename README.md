@@ -35,6 +35,8 @@ But in production it's better to be safe than sorry.
 
 ## Exercise
 
+This exercise will give you knowledge about PHP and form handling.
+
 On your own: 
 
 1. Create a PHP form with at least five radio buttons, one text input and three checkboxes for a survey. 
@@ -46,21 +48,19 @@ On your own:
 $password = "5ac5355b84894ede056ab81b324c4675"; // cheesecake
 ```
 
-You can create your own md5 strings [online](http://www.md5online.org/md5-encrypt.html) or [via PHP](https://www.w3schools.com/php/func_string_md5.asp).
+**Tip:** You can create your own md5 strings [online](http://www.md5online.org/md5-encrypt.html) or [via PHP](https://www.w3schools.com/php/func_string_md5.asp).
 
-
-You can find hints for the solution here:
+You can find hints and idea for your solution here:
 
 * [PHP Form Tutorial](http://www.html-form-guide.com/category/tutorial)
 * [PHP Checkbox](http://www.html-form-guide.com/php-form/php-form-checkbox.html)
 * [Radio Buttons](http://www.homeandlearn.co.uk/php/php4p10.html)
 
-
-
 Answer these questions:
 
 1. What is the difference between  `$_GET` and  `$_POST`?
-2. 
+2. How can you send values from one PHP file to another?
+3. How can you echo the input from a fromfiel like this: `<input type="checkbox" name="formWheelchair" value="Yes" />`?
 
 ## Microlite '81 / HTML Kickstart
 
