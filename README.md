@@ -49,9 +49,8 @@ First prepare the repo for your own use:
 Then you'll have to create a PHP form:
 
 1. Create a PHP form with at least five radio buttons, one text input and three checkboxes for a survey. 
-2. Save answers to a file via PHP.
-
-3. Extra (advanced): ask the user to enter a password, and username. Validate the username via `if() { } else { } `. Encrypt the password via md5, e.g.
+2. Save answers to a file via PHP, see [this W3 tutorial](https://www.w3schools.com/php/php_file_create.asp)
+3. **Extra** (advanced): ask the user to enter a password, and username. Validate the username via `if() { } else { } `. Encrypt the password via md5, e.g. Use a session to check whether the user is logged in or not.
 
 ```
 $password = "5ac5355b84894ede056ab81b324c4675"; // cheesecake
