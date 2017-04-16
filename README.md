@@ -39,9 +39,14 @@ This exercise will give you knowledge about PHP and form handling.
 
 On your own: 
 
-* Log on Github and **Fork** this repo.
-* **Clone** the fork on your own PC via Gitkraken.
-* Now you can edit and create files, and share the link to your repo with the class.
+First prepare the repo for your own use:
+
+* Log on Github and **Fork** this repo. Click the fork button.
+* **Clone** your fork to your own PC via Gitkraken.
+* Now you can edit and create files, and upload the files on Github.
+* Share the link to your repo with the class.
+
+Then you'll have to create a PHP form:
 
 1. Create a PHP form with at least five radio buttons, one text input and three checkboxes for a survey. 
 2. Save answers to a file via PHP.
